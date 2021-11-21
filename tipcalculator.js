@@ -25,7 +25,6 @@ function calculateTip() {
 
 //Hide the tip amount on load
 document.getElementById("totalTip").style.display = "none";
-alert("Hello, World!");
 //click to call function
 document.getElementById("calculate").onclick = function() {
   calculateTip();
