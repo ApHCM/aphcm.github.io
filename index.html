@@ -1,0 +1,41 @@
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<div id="container">
+  <h1>Apical HCM Calculator</h1>
+  <div id="calculator">
+
+    <form>
+      <p>Max Apical Wall Thickness
+        <p>
+          <input id="maxapical" type="text" placeholder="Max Apical"> mm
+      <p>Max Basal Wall Thickness
+        <p>
+          <input id="maxbasal" type="text" placeholder="Max Basal"> mm
+      <p>BSA
+        <p>
+          <input id="bsa" type="text" placeholder="BSA"> m2
+
+          <p>Apical Segment
+            <p>
+              <select id="segment">
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="Apical anterior">Apical anterior</option>
+            <option value="Apical septal">Apical septal</option>
+            <option value="Apical inferior">Apical inferior</option>
+            <option value="Apical lateral">Apical lateral</option>
+        </select>
+
+    </form>
+    <button type="button" id="calculate">Calculate!</button>
+
+  </div>
+  <!--calculator end-->
+  <div id="totalTip">
+    <span id="tip">0.00</span>
+  </div>
+  <!--totalTip end-->
+
+</div>
+<!--container end-->
+<script type="text/javascript" src="tipcalculator.js"></script>
